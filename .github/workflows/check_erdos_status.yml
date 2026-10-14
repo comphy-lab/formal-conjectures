@@ -2,7 +2,7 @@ name: Check Erdos problem statuses
 
 on:
   schedule:
-    - cron: '37 * * * *' # once an hour, 37 min past the hour
+    - cron: '13 7 1,15 * *' # 1st and 15th at 07:13 UTC
   workflow_dispatch: # Allow manual trigger
 
 jobs:
